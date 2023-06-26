@@ -53,7 +53,7 @@ function handleMouseMove(event) {
           <DiJava color="white" size={120} values="Java"/>
           {ishovered && <div className="name-overlay" 
           style={{top:position.y-150, left: position.x-60}}
-          >Java</div>}
+          ></div>}
         </div>
       </div>
 
@@ -66,7 +66,7 @@ function handleMouseMove(event) {
           <SiSpring color="white" size={80} className="react-icons" />
           {ishovered && <div className="name-overlay" 
           style={{top:position.y-150, left: position.x-60}}
-          >{imageName}</div>}
+          ></div>}
           </div>
       </div>
       <div className="icon--container">
