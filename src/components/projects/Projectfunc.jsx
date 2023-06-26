@@ -9,7 +9,7 @@ export default function Projectfunc(props){
                 <p>
                    {props.description}
                 </p>
-                <a href={props.link} target="_blank"><div class="buttonn">Read more</div></a>
+                <a href={props.link} target="_blank"><div class="buttonn">Source Code</div></a>
     </div>
     )
 }
